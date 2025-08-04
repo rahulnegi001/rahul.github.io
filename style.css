@@ -973,9 +973,9 @@ body.light .hero::before {
 }
 .ribbon {
   position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;  /* make sure this is lower than the image */
+  top: 10px;
+  right: -20px;  /* push ribbon slightly outside the image boundary */
+  z-index: 1;
 }
 
 
